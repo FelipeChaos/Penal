@@ -1,0 +1,94 @@
+{
+  "name": "SPServices",
+  "filename": "jquery.SPServices",
+  "sp_version": "2.0.0",
+  "version": "2.0.0-pre-alpha",
+  "license": "MIT",
+  "description_short": "Work with SharePoint's Web Services using jQuery",
+  "description_long": "SPServices is a jQuery library which abstracts SharePoint's Web Services and makes them easier to use. It also includes functions which use the various Web Service operations to provide more useful (and cool) capabilities. It works entirely client side and requires no server install.",
+  "homepage": "http://spservices.codeplex.com/",
+  "copyright": "2009-2016 Sympraxis Consulting LLC",
+  "requires": [
+    "jQuery v1.8 or greater - jQuery 1.10.x+ recommended"
+  ],
+  "author": "Marc D Anderson",
+  "authors": [
+    "Sympraxis Consulting LLC/marc.anderson@sympraxisconsulting.com"
+  ],
+  "dependencies": {
+    "jquery": "^1.10.0"
+  },
+  "devDependencies": {
+    "bithound": "^1.3.0",
+    "browser-sync": "^2.17.0",
+    "del": "^2.2.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-header": "^1.8.2",
+    "gulp-if": "^2.0.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "gulp-wrap": "^0.13.0",
+    "gulp-zip": "^3.2.0",
+    "handlebars": "^4.0.5",
+    "jquery": "^1.12.4",
+    "jshint": "^2.9.1",
+    "merge-stream": "^1.0.0",
+    "metalsmith": "^2.2.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-collection-metadata": "^0.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-navigation": "^0.2.9",
+    "metalsmith-register-helpers": "^0.2.0",
+    "metalsmith-text-replace": "^1.0.1",
+    "metalsmith-watch": "^1.0.3",
+    "qunit": "^0.9.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "package_zipfiles": [
+    "build/license.txt",
+    "build/<%= pkg.filename %>.js",
+    "build/<%= pkg.filename %>.min.js"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sympmarc/SPServices/blob/master/license.txt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sympmarc/spservices"
+  },
+  "description": "Work with SharePoint's Web Services using jQuery",
+  "bugs": {
+    "url": "https://github.com/sympmarc/spservices/issues"
+  },
+  "main": "Gulpfile.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SPServices",
+    "SharePoint 2013",
+    "SharePoint 2010",
+    "SharePoint 2007",
+    "SharePoint",
+    "REST",
+    "SOAP"
+  ]
+}
